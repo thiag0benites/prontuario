@@ -9,37 +9,57 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/custom.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="../css/all.css">-->
 
         <title>Pronturário Online</title>
     </head>
 
     <body>
         <div class="container">
-            <div class="wrapper fadeInDown">
-                <div id="formContent">
-                    <!-- Tabs Titles -->
-
-                    <!-- Icon -->
-                    <div class="fadeIn first">
-                    <img src="https://www.b-cube.in/wp-content/uploads/2014/05/aditya-300x177.jpg" id="icon" alt="User Icon" />
-                    <h1>Aditya News</h1>
+            <div class="d-flex justify-content-center h-100">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Login</h3>
+                        <!--<div class="d-flex justify-content-end social_icon">
+                            <span><i class="fab fa-facebook-square"></i></span>
+                            <span><i class="fab fa-google-plus-square"></i></span>
+                            <span><i class="fab fa-twitter-square"></i></span>
+                        </div>-->
                     </div>
-
-                    <!-- Login Form -->
-                    <form>
-                    <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
-                    <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-                    <input type="submit" class="fadeIn fourth" value="Log In">
-                    </form>
-
-                    <!-- Remind Passowrd -->
-                    <div id="formFooter">
-                    <a class="underlineHover" href="#">Go to the Site</a>
+                    <div class="card-body">
+                        <form>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="usuário">
+                                
+                            </div>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="senha">
+                            </div>
+                            <!--<div class="row align-items-center remember">
+                                <input type="checkbox">Remember Me
+                            </div>-->
+                            <div class="form-group">
+                                <input type="submit" value="Entrar" class="btn float-right login_btn">
+                            </div>
+                        </form>
                     </div>
-
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-center">
+                            <a href="#">Esqueceu sua senha?</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </body>
+</html>
 
         <!-- Optional JavaScript -->
         <script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
